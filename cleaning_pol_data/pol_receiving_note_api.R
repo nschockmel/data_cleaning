@@ -12,7 +12,7 @@ library(tidyverse)
 
 path <- "API Datasets/Receiving Note Analysis/"
 
-# load list from morag
+# load list from receiving team
 note_check <- read_csv(paste0(path, "Interested Users Check.csv"))
 
 # write po-lines to .txt output for checking with API
